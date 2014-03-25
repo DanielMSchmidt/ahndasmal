@@ -1,0 +1,134 @@
+@media (max-width: 1175px) {
+  .col-md-4 {
+    width: 18%;
+  }
+  .shortHeadline {
+    font-size: 16px !important
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .colIndex5 {
+    margin-right: 2% !important;
+  }
+  .col-md-4 {
+    width: 32%;
+  }
+  .cat-overview {
+    margin-right: 2% !important;
+  }
+  
+  .colIndex3 {
+    margin-right: 0px !important;
+  }
+
+  .main-navigation li {
+    border-top: 1px solid #ededed;
+  }
+  .main-navigation li a:hover {
+    text-decoration: none;
+  }
+  .main-navigation li {
+    margin-top: 0px !important;
+    border-top: 1px solid #ededed;
+  }
+}
+
+@media (max-width: 620px) {
+  .col-md-4 {
+    width: 49%;
+  }
+  .colIndex3 {
+    margin-right: 2% !important;
+  }
+  .colIndex2 {
+    margin-right: 0px !important;
+  }
+  .site-header h1 a {
+    font-size: 46px !important;
+  }
+  .categoryBoxStart {
+    width: 100%;
+  }
+  .catStartOverviewContent {
+    padding-right: 9px;
+    padding-left: 2px;
+  }
+  .nav-previous, .nav-next {
+    width: 100%;
+  }
+  .nav-next {
+    margin-bottom: 10px;
+  }
+  .nav-previous {
+    float: left;
+  }
+}
+
+@media (max-width: 480px) {
+  iframe {
+    height: auto;
+  }
+  .col-md-4 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .site-header h1 a {
+    font-size: 47px !important;
+  }
+  .pageHead {
+    height: auto !important;
+    text-align: center !important;
+  }
+  .pageHeadline {
+    position: relative !important;
+    padding-bottom: 5px !important;  
+    white-space: inherit !important;
+  }
+
+  .actionBar {
+    width: 100% !important;
+    position: relative !important;
+  }
+
+  .actionContainer {
+    margin-left: 0px !important;
+    float: none !important;
+    bottom: 0 !important;
+    border-top: 1px solid #ededed !important;
+  }
+  .actionActive {
+    border-top: 2px solid #21759B !important;
+    padding-top: 5px !important;
+  }
+
+  .link-box {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* iPhone 5 Landscape Styling */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+  .col-md-4 {
+    width: 48% !important;
+    font-size: 16px;
+  }
+  .cat-overview {
+    margin-right: 4% !important;
+  }
+  .shortHeadline {
+    height: 25px !important;
+  }
+  .site {
+    padding: 0 5px!important;
+  }
+  .colIndex2 {
+    margin-right: 0px !important;
+  }
+  .colIndex6 {
+    margin-right: 0% !important;
+  }
+}
